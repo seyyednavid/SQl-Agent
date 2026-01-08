@@ -25,21 +25,21 @@ The system automatically generates SQL queries and returns clear summaries using
 
 ##  Database Schema
 
-### **1. grocery_db.customer_details**
+### **1. grocery_db.customer_details tabel – one row per customer*
 
-| Column              | Type           | Description |
-|--------------------|---------------|-------------|
-| customer_id        | INT           | Unique customer ID |
-| distance_from_store| NUMERIC(10,2) | Miles from store |
-| gender             | VARCHAR(2)    | 'M', 'F', or NULL |
-| credit_score       | NUMERIC(3,2)  | Credit score (0.00–1.00) |
+| Column              | Type           
+|--------------------|---------------|
+| customer_id        | INT           | 
+| distance_from_store| NUMERIC(10,2) | 
+| gender             | VARCHAR(2)    |
+| credit_score       | NUMERIC(3,2)  | 
 
 ---
 
-### **2. grocery_db.transactions**
+### **2. grocery_db.transactions tabel – one row per combination of customer, transaction, and product area**
 
-| Column            | Type            | Description |
-|------------------|------------------|-------------|
+| Column            | Type            | 
+|------------------|------------------|
 | customer_id      | INT              |
 | transaction_id   | INT              |
 | transaction_date | DATE             |
