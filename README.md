@@ -1,6 +1,8 @@
 #  SQL AI Agent  
-**Live Demo:**  https://sql-agent-production-4f10.up.railway.app/
-More Description : https://seyyednavid.github.io/2025/11/19/gen-ai-sql-agent-bot.html
+
+🔗 Project Links
+- **Live Demo:**  https://sql-agent-production-4f10.up.railway.app/
+- More Description : https://seyyednavid.github.io/2025/11/19/gen-ai-sql-agent-bot.html
 
 
 <img width="918" height="426" alt="SQL-AGENT" src="https://github.com/user-attachments/assets/59506390-c936-4e24-ac27-a98e20c63104" />
